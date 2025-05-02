@@ -1,4 +1,5 @@
 FROM php:8.3.20-apache
+LABEL org.opencontainers.image.source="https://github.com/p0we7/stv"
 
 # 安装 APCu 扩展 via PECL
 RUN pecl install apcu && \
